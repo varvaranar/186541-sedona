@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Varvara Nar](https://up.htmlacademy.ru/htmlcss/19/user/186541).
-* Наставник: `Неизвестно`.
+* Наставник: [Вячеслав Афонасьев](https://htmlacademy.ru/profile/id243797).
 
 ---
 
