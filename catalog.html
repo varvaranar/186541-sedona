@@ -18,24 +18,34 @@
     </header>
     <main class="container">
       <section class="filters">
-		<h2 class="visually-hidden">Фильтр жилья</h2>
+		<h1 class="visually-hidden">Фильтр жилья</h1>
 		<!-- Форма фильтрации жилья -->
       </section>
       <section class="serch-resalts">
+      	 <span class="found"> 
+      	   <h2>Найдено: 3</h2>
+      	 </span>
 		<h2 class="visually-hidden">Варианты сортировки</h2>
-		<ul class="hotel-sorting"> <!--Сортировка:-->
+		<ul class="hotel-sorting"> 
+		  <li>Сортировка</li>
 		  <li>по цене</li>
 		  <li>по типу</li>
 		  <li>по рейтингу</li>
+		  <li>
+		  	<button type="button"><img src="#" width="#" height="#" alt="Кнопка up">
+		  	</button>
+		  </li>
+		  <li>
+		  	<button type="button"><img src="#" width="#" height="#" alt="Кнопка down">
+		  	</button>
+		  </li>
 		</ul>
       </section>
       <section>
     	<h2 class="visually-hidden">Результаты поиска</h2>
     	<ul class="catalog-list">
     	  <li>
-    		<h3> 
-    		  <span class="catalog-item-title">Amara resort & spa</span>
-    		</h3>
+    		<h2>Amara resort & spa</h2>
     		<P> <span class="catalog-item-price">Гостиница от 4000 р.</span></P>
     		<p class="catalog-item-image"> 
     		  <a href="catalog-item.html"><img src="img/hotel-1.jpg" width="100" height="150" alt="Гостиница Amara resort & spa">
@@ -46,13 +56,12 @@
     		</P>
     		<p class="catalog-item-booking">
     			<a class="button" href="#">Забронировать</a>
-    			<!-- Рейтинг -->
+    		<p> <img src="img/4stars.jpg" width="#" height="#" alt="Рейтинг 4 звезды">
+			<p class="catalog-item-rating"> Рейтинг: 8,5</p>
     		</p>
     	  </li>
     	  <li>
-    	    <h3> 
-			  <span class="catalog-item-title">Desert quail inn</span>
-			</h3>
+    	    <h2>Desert quail inn</h2>
 			<P> <span class="catalog-item-price">Мотель от 3000 р.</span></P>
 			<p class="catalog-item-image">
 			  <a href="catalog-item.html"><img src="img/hotel-2.jpg" width="100" height="150" alt="Мотель Desert quail inn">
@@ -64,27 +73,20 @@
     		<p class="catalog-item-booking">
     		  <a class="button" href="#">Забронировать</a>
     		</p>
-			<p class="catalog-item-rating">
-			 	<!-- Рейтинг -->
-			</p>
+    		<p> <img src="img/3stars.jpg" width="#" height="#" alt="Рейтинг 3 звезды">
+			<p class="catalog-item-rating"> Рейтинг: 8,9</p>
     	  </li>
     	  <li>
-    	    <h3> 
-			  <span class="catalog-item-title">Villas at poco diablo</span>
-			</h3>
-			<P> <span class="catalog-item-price">Апартаменты от 2000 р.</span></P>
+    	    <h3>Villas at poco diablo</h3>
+			<p> <span class="catalog-item-price">Апартаменты от 2000 р.</span></p>
 			<p class="catalog-item-image">
 			  <a href="catalog-item.html"><img src="img/hotel-3.jpg" width="100" height="150" alt="Апартаменты Villas at poco diablo">
 			  </a>
-			</P>
-			<p class="catalog-item-details">
-			  <a class="button" href="#">Подробнее</a>
 			</p>
-			<p class="catalog-item-booking">
-			  <a class="button" href="#">Забронировать</a>
-			</p>
-			<p class="catalog-item-rating">
-			 	<!-- Рейтинг -->
+			  <a class="button info-button" href="#">Подробнее</a>
+			  <a class="button info-booking" href="#">Забронировать</a>
+			<p> <img src="img/2stars.jpg" width="#" height="#" alt="Рейтинг 2 звезды">
+			<p class="catalog-item-rating"> Рейтинг: 9,2</p>
     		</p>
     	  </li>	
     	</ul>
@@ -99,7 +101,7 @@
           <li><a class="social-button" href="#">Ютуб</a></li>
         </ul>
       </div>
-      <p class="footer-copyright"><img src="#" width="368" height="204" alt="Вебсайт сделан htmlacademy"></p>
+      <p class="footer-copyright"><a href="ссылка на лендинг"><img src="img/htmlacademy" width="#" height="#" alt="Логотип htmlacademy" ></p>
     </footer>
   </body>
 </html>
